@@ -1,0 +1,158 @@
+.dining {
+    background-color: var(--main-white);
+    padding: 130px 0;
+  }
+  
+  #dining {
+    background-attachment: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .dining-info {
+    font-family: var(--main-font);
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .dining-info h1 {
+    margin: 10px;
+  }
+  .dining h2 {
+    margin: 50px 0 10px 0;
+  }
+  
+  .dining-info p {
+    margin: 20px 120px;
+    font-size: 20px;
+    letter-spacing: .8px;
+  }
+  
+  .banner {
+    display: inline-block;
+    width: 65%;
+    background: var(--main-yellow);
+    color: var(--mainWhite);
+    padding: 2rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+    margin: 40vh 0;
+    font-family: var(--main-font);
+  }
+  .banner h1 {
+    font-size: 2.5rem;
+  }
+  
+  @media screen and (min-width: 576px) {
+    .banner {
+      padding: 2rem 3rem;
+    }
+    .banner h1 {
+      font-size: 2rem;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .banner {
+      padding: 2rem 6rem;
+    }
+    .banner h1 {
+      font-size: 3.5rem;
+    }
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--mainBlack);
+    background: var(--main-yellow);
+    padding: 9px;
+    border: 1px solid var(--main-black);
+    border-radius: 1px;
+    transition: var(--mainTransition);
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: var(--main-font);
+    width:150px;
+    height: 40px;
+  }
+  .btn-primary:hover {
+    background: transparent;
+    color: var(--main-yellow);
+  }
+  
+  .dining-select {
+    overflow: hidden;
+    padding: 0 100px;
+  }
+  
+  .one, .two {
+    width: 49%;
+    height: 300px;
+    float: left;
+    text-decoration: none;
+    color: var(--main-font);
+    letter-spacing: var(--mainSpacing);
+  }
+  
+  .one {
+ 
+    background-attachment: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+    transition: var(--mainTransition);
+    box-shadow: var(--lightShadow);
+  }
+  .two {
+
+    background-attachment: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: var(--mainTransition);
+    box-shadow: var(--lightShadow);
+  }
+  .one:hover, .two:hover {
+    box-shadow: var(--darkShadow);
+  }
+  
+  .card {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    opacity: 0;
+    text-align: center;
+    cursor: pointer;
+    font-family: var(--main-font);
+    transition: all 0.30s ease-in-out;
+  }
+  
+  .card h1 {
+    padding: 25px;
+    font-size: 30px;
+    color: var(--font-color);
+    background-color: var(--main-yellow);
+  }
+  
+  .card:hover {
+    opacity: 0.98;
+  }
+  
+  .price {
+    position: absolute;
+    width: 130px;
+    bottom: 1;
+    left: 1;
+    background: var(--main-yellow);
+    color: var(--main-black);
+    padding: 0.5rem 0.6rem 0.5rem;
+    margin-top: 161.5px;
+    font-size: 1.4rem;
+    text-align: center;
+    transition: var(--mainTransition);
+  }
