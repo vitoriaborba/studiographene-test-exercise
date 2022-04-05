@@ -4,12 +4,12 @@
     left: 0;
     width: 100%;
     padding: 0 1rem;
-    background: rgba(192, 192, 192, 0.473);
+    background: rgba(240, 239, 239, 0.473);
     z-index: 2;
   }
   .nav-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
   .nav-btn {
     background: transparent;
@@ -29,7 +29,7 @@
     display: block;
     text-decoration: none;
     padding: 1rem 0;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     transition: var(--mainTransition);
     text-align: center;
     font-size: 1.20rem;

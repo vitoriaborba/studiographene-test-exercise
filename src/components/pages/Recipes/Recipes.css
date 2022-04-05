@@ -1,5 +1,5 @@
 .dining {
-    background-color: var(--main-white);
+    background-color:rgb(255, 255, 255);
     padding: 130px 0;
   }
   
@@ -11,7 +11,7 @@
     height: 100vh;
     text-align: center;
   }
-  
+    
   .dining-info {
     font-family: var(--main-font);
     text-align: center;

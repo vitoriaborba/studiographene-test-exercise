@@ -1,133 +1,83 @@
- .overlay {
-     background-image: url('https://wallpaperaccess.com/full/6032082.jpg');
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
+ #community {
+   background-color:#f2f2f2 ;
+   height: 150vh;
+   padding-top: 15vh;
 }
   .intro {
     height: 125vh;
     padding-top: 30px;
   }
   
-  .content {
-    display: table-cell;
-    vertical-align: middle;
-   
+  .content1 {
+    display:flex;
+    flex-direction: column;
   }
   
-  .content h1 {
-    font-size: 50px;
-    text-align: center;
+  .meet {
+    width: 300px;
+    text-align: left;
   }
-  
-  .animate {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  .meet h1 {
+    font: normal normal bold 42px/32px DIN Condensed;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+    padding-bottom: 20px;
+  }
+
+  .row1 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10em;
+  }
+  .row2 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 3em 0 3em 10em;
+  }
+  .meet article {
+    width: 200px;
+  }
+  img {
+    width: 180px;
+    height: 180px;
+  }
+  .image1 {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff8d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+  }
+  .row3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .row3 p {
+    width: 200px;
+  }
+ .insta {
+   display: flex;
+   flex-direction: column;
+   width: 250px;
+   height: 200px;
+   background-color: #ffffff88;
+   padding: 20px;
+ }
+ .insta h4 {
+   padding-bottom: 15px;
+ }
+ .info-pic {
+   display: flex;
+ }
+ button {
+  border: none;
+  background-color: #FFDAC9;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
   margin-bottom: 20px;
-  padding-bottom: 10em
-}
-.loader h1 {
-  white-space: nowrap; /* Keeps the content on a single line */
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  font-weight: 500;
-  
-}
-.loader h1:nth-child(1){
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  color: rgb(255, 255, 255);
-  overflow: hidden;
-  -webkit-animation: 
-    type 3s steps(30, end),
-    blink-caret .4s step-end infinite;
-          animation: 
-    type 3s steps(30, end),
-    blink-caret .4s step-end infinite;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes type {
-    from { width: 0 }
-    to { width: 100% }
-    0% {
-      width: 0;
-    }
-    99.9% {
-      border-right: .15em solid orange;
-    }
-    100% {
-      border: none;
-    }
-}
-
-
-@keyframes type {
-    from { width: 0 }
-    to { width: 100% }
-    0% {
-      width: 0;
-    }
-    99.9% {
-      border-right: .15em solid orange;
-    }
-    100% {
-      border: none;
-    }
-
-}
-.loader h1:nth-child(2){
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    color: rgb(255, 255, 255);
-    overflow: hidden;
-    -webkit-animation: 
-      type2 3s steps(30, end),
-      blink-caret .4s step-end infinite;
-            animation: 
-      type2 3s steps(30, end),
-      blink-caret .4s step-end infinite;
-      -webkit-animation-delay: 3s;
-      animation-delay: 3s;
-      -webkit-animation-fill-mode: forwards;
-      animation-fill-mode: forwards;
-  }
-  
-  @-webkit-keyframes type2 {
-    from { width: 0 }
-  to { width: 100% }
-  0% {
-    width: 0;
-  } 
-  1% {
-    opacity: 1;
-  }
-   99.9% {
-    border-right: .15em solid orange;
-  }
-  100% {
-    opacity: 1;
-    border-right: none;
-    border: none;
-  }
-  }
-  
-  
-  @keyframes type2 {
-    from { width: 0 }
-    to { width: 100% }
-    0% {
-      width: 0;
-    } 
-    1% {
-      opacity: 1;
-    }
-     99.9% {
-      border-right: .15em solid orange;
-    }
-    100% {
-      opacity: 1;
-      border-right: none;
-      border: none;
-    }
-  }
+ }

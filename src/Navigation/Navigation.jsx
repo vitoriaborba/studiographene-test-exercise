@@ -24,6 +24,9 @@ function Navigation() {
         </button>
       </div>
       <ul className={state.isOpen ? "nav-links show-nav" : "nav-links"}>
+      <li>
+          <Link smooth to="#home">Home</Link>
+        </li>
         <li>
           <Link smooth to="#community">Community</Link>
         </li>
